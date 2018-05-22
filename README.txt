@@ -6,6 +6,6 @@
    screenshot capturing, organizing, naming, archiving, deleting,
    and so on for use with Jhen's online teaching job.
 # Created: 5.21.2018
-# Modified:
+# Modified: n/a
 
 
