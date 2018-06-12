@@ -24,7 +24,7 @@ monthDirPath=$dirPath$year-$month
 currentDateTime=$year-$month-$date-$hour$minute
 
 function DirMain() {
-	# Creates main directory called '51-Talk-Screenshots' if it does not exist
+	# Creates main directory called '51-Screenshots' if it does not exist
 	if [ ! -d $dirPath ]
 		then
 			mkdir $dirPath
