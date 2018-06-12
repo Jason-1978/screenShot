@@ -10,7 +10,7 @@
 #                                           
 ############################################
 
-dirPath=~/Pictures/51-Talk-Screenshots/
+dirPath=~/Pictures/51-Screenshots/
 
 # Time Variables Set
 minute=$(date +%M)
