@@ -2,8 +2,8 @@
 
 #############################################
 #                                           
-# Author: Jason Kralik                            
-# Purpose: 51-Talk ScreenCapture Prototype
+# Author: Jason K
+# Purpose: ScreenCapture Prototype
 # FileName: 51-Screencapture.sh
 # Created: 06/08/18 
 # Modifed:                                  
