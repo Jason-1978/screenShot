@@ -77,6 +77,7 @@ function shotCaller() {
 	dirMonth
 	dirPayPeriod
 	shotCaller $fullPathToFile $1 
+#### Need to reset $1 to a time rather than simply receive input ####
 
 ##############
 # gzip
