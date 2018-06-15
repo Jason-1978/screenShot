@@ -79,17 +79,6 @@ function shotCaller() {
 	shotCaller $fullPathToFile $1 
 #### Need to reset $1 to a time rather than simply receive input ####
 
-##############
-# gzip
-#		automate gzip of directories 
-#		provide ungzip functionality 
-'''
-GZIP-->
-=$
-zipTime=$month+$
-if [ $zipTime == 
-
-'''
 	sleep 60
 done
 
