@@ -1,4 +1,4 @@
-import tkinter
+from tkinter import *
 from tkinter import ttk
 
 #############################################
@@ -19,15 +19,17 @@ from tkinter import ttk
 # Entry, ListBox, Message, RadioButton, ScrollBar,
 # BitMap, SpinBox, Image
 
-root = Tk()  # 'root' is a TK object. It is the main window.
+root = Tk()  # 'root' defined here as a TK object (main window)
+
+root.title("First GUI")  # 'title' on top of 'root' window
 
 ######
-root.title("First GUI")  # 'title' on top of 'root' window
 # ttk.Button(root, text="Hello TkInter").grid() # button inside of 'root' window
 
 #######
-frame = Frame(root)  # 'Frame' widget that surrounds other widgets
-labelText = StringVar()  # Compare 'label' w/ 'label2' (next 2 lines) --
+frame = Frame(root)  # 'Frame' widget (obj) to surround other widgets (objs)
+labelText = StringVar()  # Tkinter variable
+# Compare 'label' w/ 'label2' (next 2 lines) --
 # This creates an object that is 'set' below in 'labelText.set()'
 label = Label(frame, textvariable=labelText)
 label2 = Label(frame, text="label2")
